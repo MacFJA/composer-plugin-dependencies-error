@@ -1,0 +1,20 @@
+{
+    "name": "macfja/composer-plugin-dependencies-error",
+    "version": "1.0.0",
+    "type": "composer-plugin",
+    "require": {
+        "composer-plugin-api": "^1.0 || ^2.0",
+        "symfony/process": "^5.1"
+    },
+    "require-dev": {
+        "composer/composer": "^2"
+    },
+    "autoload": {
+        "psr-4": {
+            "MacFJA\\Test\\": "./"
+        }
+    },
+    "extra": {
+        "class": "MacFJA\\Test\\Plugin"
+    }
+}
